@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3pnrqdssj8yl"]
+
+[ext_resource type="Texture2D" uid="uid://c8330v5fmb0so" path="res://images/wizard.png" id="1_glpr6"]
+[ext_resource type="Script" uid="uid://b7adiqhtfhywx" path="res://character.gd" id="1_pjt0s"]
+
+[node name="Character" type="Node2D"]
+script = ExtResource("1_pjt0s")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.83333, 1.83333)
+texture = ExtResource("1_glpr6")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -20.0
+offset_top = -78.0
+offset_right = 20.0
+offset_bottom = -55.0
+text = "TEST"
