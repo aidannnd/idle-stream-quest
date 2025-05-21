@@ -5,7 +5,7 @@ var ws := WebSocketPeer.new()
 
 func _ready():
 	randomize()
-	var url = "ws://localhost:8080"
+	var url = "ws://localhost:3000"
 	var err = ws.connect_to_url(url)
 	if err != OK:
 		print("Failed to connect: ", err)

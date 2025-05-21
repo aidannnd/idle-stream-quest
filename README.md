@@ -1,2 +1,3 @@
-The Godot portion of Idle Stream Quest
-WIP
+Idle Stream Quest (WIP)
+- Godot overlay
+- Node.js + Express backend
